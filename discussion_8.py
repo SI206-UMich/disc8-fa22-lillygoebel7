@@ -17,6 +17,7 @@ def getLink(soup):
 def getAdmissionsInfo2019(soup):
     table = soup.find_all('td')
     inner_table = table.find('table', class_="toccolours")
+    
     #table_date = 
     #new_dict = {}
     #for item in inner_table:
