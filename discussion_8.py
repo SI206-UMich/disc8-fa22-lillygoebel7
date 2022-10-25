@@ -15,7 +15,7 @@ def getLink(soup):
 # Task 3: Get the details from the box titled "College/school founding". Get all the college/school names and the year they were
 # founded and organize the same into key-value pairs.
 def getAdmissionsInfo2019(soup):
-    #table = soup.find_all('td')
+    table = soup.find_all('td')
     #inner_table = table.find('table', class_="toccolours")
     #table_date = 
     #new_dict = {}
